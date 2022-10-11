@@ -1,0 +1,28 @@
+{
+  "name": "intronode",
+  "version": "1.0.0",
+  "description": "En este paquete se encuentra la introduccion a nodejs realizada por codigo con juan en UDEMY",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "codigoconjuan",
+    "udemy",
+    "introduccion"
+  ],
+  "author": "BIGTOR",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "pug": "^3.0.2",
+    "sequelize": "^6.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
